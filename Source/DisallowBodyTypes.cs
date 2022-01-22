@@ -67,7 +67,6 @@ namespace DisallowBodyTypes
 
             if (change_body_type)
             {
-                Log.Warning($"Replacing body type {pawn.story.bodyType}");
                 pawn.story.bodyType = SelectNewBodyType(pawn);
             }
         }
